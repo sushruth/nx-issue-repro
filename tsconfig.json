@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@example/ui-comp1": ["libs/ui-comp1/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
